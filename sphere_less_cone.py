@@ -1,4 +1,4 @@
-# Volume Sphere Minus Cone (geometric / trigonometric approach)
+# Volume Sphere Minus Cone (geometric/trigonometric approach)
 
 from numpy import pi, sin, cos
 
@@ -30,4 +30,4 @@ def ball_less_cone(radius, angle=pi/4, deg=False):
 
     # Calculate volume final
     volume = volume_sphere - (volume_cone + volume_cap)
-    print(volume,"\n")
+    return volume
